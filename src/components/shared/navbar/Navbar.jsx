@@ -33,9 +33,7 @@ const Navbar = async () => {
                         {/* <li>
                             <Link href={"/signup"}>SignUp</Link>
                         </li> */}
-                        
                         <SessionLogic />
-
 
                     </ul>
                 </div>

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "The Silent Forest",
+        "author": "Elena Marrow",
+        "description": "A mysterious tale of a village surrounded by a forest where no sound can be heard after sunset.",
+        "category": "Story",
+        "available_quantity": 7,
+        "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93"
+    },
+    {
+        "id": 2,
+        "title": "Mastering React Architecture",
+        "author": "Daniel Kross",
+        "description": "A practical guide to building scalable and maintainable React applications with modern architecture patterns.",
+        "category": "Tech",
+        "available_quantity": 5,
+        "image_url": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f"
+    },
+    {
+        "id": 3,
+        "title": "Cosmos Beyond Sight",
+        "author": "Dr. Lila Hart",
+        "description": "An exploration of galaxies, dark matter, and the unseen wonders of the universe.",
+        "category": "Science",
+        "available_quantity": 9,
+        "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+    },
+    {
+        "id": 4,
+        "title": "Whispers of the Old Town",
+        "author": "Marcus Dune",
+        "description": "A collection of short stories revealing hidden secrets of an ancient town through generations.",
+        "category": "Story",
+        "available_quantity": 4,
+        "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+        "id": 5,
+        "title": "AI for Everyday Developers",
+        "author": "Nina Patel",
+        "description": "An approachable introduction to integrating artificial intelligence into everyday software projects.",
+        "category": "Tech",
+        "available_quantity": 6,
+        "image_url": "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+    },
+    {
+        "id": 6,
+        "title": "The Quantum Key",
+        "author": "Oliver Grant",
+        "description": "A thrilling narrative where quantum physics meets espionage in a race against time.",
+        "category": "Story",
+        "available_quantity": 3,
+        "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+    },
+    {
+        "id": 7,
+        "title": "Human Anatomy Simplified",
+        "author": "Dr. Rebecca Miles",
+        "description": "A clear and concise guide to understanding the human body for students and enthusiasts.",
+        "category": "Science",
+        "available_quantity": 8,
+        "image_url": "https://images.unsplash.com/photo-1581093458791-9d3c63b5d5c7"
+    },
+    {
+        "id": 8,
+        "title": "Node.js in Production",
+        "author": "Kevin Zhao",
+        "description": "Best practices and real-world strategies for deploying and managing Node.js applications at scale.",
+        "category": "Tech",
+        "available_quantity": 5,
+        "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd"
+    },
+    {
+        "id": 9,
+        "title": "Beneath the Crimson Sky",
+        "author": "Ariana Vale",
+        "description": "An emotional journey of survival and hope in a post-apocalyptic world painted red by dust storms.",
+        "category": "Story",
+        "available_quantity": 6,
+        "image_url": "https://images.unsplash.com/photo-1500534623283-312aade485b7"
+    },
+    {
+        "id": 10,
+        "title": "The Brain and Beyond",
+        "author": "Dr. Samuel Ortiz",
+        "description": "Insights into neuroscience, cognition, and the mysteries of human thought processes.",
+        "category": "Science",
+        "available_quantity": 7,
+        "image_url": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e"
+    },
+    {
+        "id": 11,
+        "title": "CSS Secrets Unveiled",
+        "author": "Laura Chen",
+        "description": "Advanced CSS techniques to create stunning and responsive user interfaces.",
+        "category": "Tech",
+        "available_quantity": 4,
+        "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    },
+    {
+        "id": 12,
+        "title": "Echoes from the Deep Sea",
+        "author": "Jonah Pierce",
+        "description": "Discover the hidden life forms and mysteries lurking in the deepest parts of the ocean.",
+        "category": "Science",
+        "available_quantity": 5,
+        "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    }
+]

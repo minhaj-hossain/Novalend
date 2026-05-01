@@ -1,6 +1,13 @@
+import Banner from "@/components/main/banner/Banner";
+import MarqueePage from "@/components/main/MarqueePage";
 
-export default function Home() {
+export default async function Home() {
+
   return (
-    <div>this is homepage</div>
+    <div className="">
+      <MarqueePage />
+
+      <Banner />
+    </div>
   );
 }
