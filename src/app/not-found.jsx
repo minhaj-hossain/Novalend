@@ -24,7 +24,7 @@ export default function NotFound() {
 
                     <button
                         onClick={() => history.back()}
-                        className="px-6 py-3 rounded-2xl border shadow-sm hover:shadow-md transition"
+                        className="px-6 py-3 rounded-2xl border shadow-sm hover:shadow-md transition cursor-pointer"
                     >
                         Go Back
                     </button>

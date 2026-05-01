@@ -13,6 +13,7 @@ const NavLink = ({ href, children }) => {
         <li>
             <Link href={href} className={`${href == pathname ? 'border-b-2 border-b-sky-500/30' : ''}`}>{children}</Link>
         </li>
+        
     );
 };
 
