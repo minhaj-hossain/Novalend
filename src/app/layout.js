@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NovaLend",
+  title: "NovaLend - books lending platform",
   description: "A peer-to-peer lending platform built with Next.js and Better Auth.",
 };
 

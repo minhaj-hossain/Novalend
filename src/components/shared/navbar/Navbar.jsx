@@ -6,9 +6,6 @@ import SessionLogic from "./SessionLogic";
 
 const Navbar = async () => {
 
-
-
-
     return (
         <div className="border-b px-2">
             <nav className="container flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
@@ -36,6 +33,7 @@ const Navbar = async () => {
                         {/* <li>
                             <Link href={"/signup"}>SignUp</Link>
                         </li> */}
+                        
                         <SessionLogic />
 
 
