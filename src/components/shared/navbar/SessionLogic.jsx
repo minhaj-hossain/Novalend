@@ -16,7 +16,7 @@ const SessionLogic = () => {
     const user = session?.user;
     return (<>
         {
-            !user ? <li li >
+            !user ? <li>
                 <Link className="border cursor-pointer rounded-lg px-3 py-1" href={"/login"}>Login</Link>
             </li> : isPending ? <div>loading...</div> : <>
                 <li className="font-bold text-sm">{user?.name}</li>

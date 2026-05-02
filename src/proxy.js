@@ -6,7 +6,7 @@ import { headers } from 'next/headers'
 export async function proxy(request) {
 
     const session = await auth.api.getSession({
-        headers: await headers() // you need to pass the headers object.
+        headers: await headers()
     })
 
     if (session) {
@@ -18,5 +18,5 @@ export async function proxy(request) {
 
 
 export const config = {
-    matcher: ['/my-profile', '/about/:path*'],
+    matcher: ['/my-profile', '/all-books/:path*'],
 }

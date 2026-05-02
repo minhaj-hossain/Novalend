@@ -1,4 +1,5 @@
 import Banner from "@/components/main/banner/Banner";
+import Featured from "@/components/main/featured/Featured";
 import MarqueePage from "@/components/main/MarqueePage";
 
 export default async function Home() {
@@ -8,6 +9,8 @@ export default async function Home() {
       <MarqueePage />
 
       <Banner />
+
+      <Featured />
     </div>
   );
 }

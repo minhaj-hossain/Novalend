@@ -5,7 +5,6 @@ import Marquee from 'react-fast-marquee';
 const MarqueePage = async () => {
     const booksData = await getData()
 
-    console.log(booksData)
     return (
         <Marquee className="bg-gray-100  py-2 text-black/70 mt-5 font-medium" pauseOnHover={true} gradient={true} speed={50}>
             {
