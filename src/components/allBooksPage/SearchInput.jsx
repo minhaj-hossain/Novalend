@@ -26,9 +26,9 @@ const SearchInput = () => {
             placeholder="Search books by title..."
             defaultValue={searchParams.get('search')?.toString()}
             onChange={(e) => handleSearch(e.target.value)}
-            classNames={{
-                inputWrapper: "bg-white dark:bg-zinc-900 shadow-sm border border-gray-200 dark:border-white/10"
-            }}
+            className={
+                "bg-white dark:bg-zinc-900 shadow-sm border border-gray-200 dark:border-white/10"
+            }
         />
     );
 };
