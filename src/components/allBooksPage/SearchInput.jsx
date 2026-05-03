@@ -8,10 +8,10 @@ const SearchInput = () => {
     const pathname = usePathname();
     const { replace } = useRouter();
 
-    const handleSearch = (term) => {
+    const handleSearch = (searchValue) => {
         const params = new URLSearchParams(searchParams);
-        if (term) {
-            params.set('search', term);
+        if (searchValue) {
+            params.set('search', searchValue);
         } else {
             params.delete('search');
         }

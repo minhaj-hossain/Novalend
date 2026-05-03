@@ -16,8 +16,11 @@ const CategoryWiseBook = async ({ params, searchParams }) => {
     const uniqueCategories = [...new Set(categories)];
 
     const filteredBooks = books.filter((book) => {
+
         const matchesCategory = category === "all" || book.category.toLowerCase() === category.toLowerCase();
+
         const matchesSearch = !search || book.title.toLowerCase().includes(search.toLowerCase());
+
         return matchesCategory && matchesSearch;
     });
 
@@ -40,13 +43,7 @@ const CategoryWiseBook = async ({ params, searchParams }) => {
                 <div className="sm:col-span-1 ">
 
                     <ul>
-                        {/* <li>
-                            <Link href={`/all-books/category/${"all"}`}>
-                                <div className={'"block w-full rounded-lg border border-gray-200 bg-transparent px-4 py-2 text-sm font-bold text-gray-700 transition-colors hover:bg-gray-100 active:bg-gray-200 dark:border-white/10 dark:text-gray-300 dark:hover:bg-zinc-800 '}>
-                                    All Categories
-                                </div>
-                            </Link>
-                        </li> */}
+                       
 
                         <CategoryLink key="all" category={'All Categories'} href={`/all-books/category/all`} />
 
@@ -71,9 +68,6 @@ const CategoryWiseBook = async ({ params, searchParams }) => {
                     )}
 
                 </div>
-
-
-
 
             </div>
 

@@ -1,6 +1,8 @@
+import Accordion from "@/components/main/accordion/Accordion";
 import Banner from "@/components/main/banner/Banner";
 import Featured from "@/components/main/featured/Featured";
-import MarqueePage from "@/components/main/MarqueePage";
+import MarqueePage from "@/components/main/marquee/MarqueePage";
+import Testimonials from "@/components/main/testimonials/Testimonial";
 
 export default async function Home() {
 
@@ -11,6 +13,9 @@ export default async function Home() {
       <Banner />
 
       <Featured />
+
+      <Testimonials />
+      <Accordion />
     </div>
   );
 }
