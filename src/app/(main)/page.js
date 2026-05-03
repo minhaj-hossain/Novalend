@@ -11,7 +11,7 @@ export default async function Home() {
       <MarqueePage />
 
       <Banner />
-
+      
       <Featured />
 
       <Testimonials />

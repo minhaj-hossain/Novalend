@@ -37,8 +37,8 @@ const Accordion = () => {
 
     const [open, setOpen] = useState(null);
 
-    function toggle(i) {
-        setOpen((prev) => (prev === i ? null : i));
+    function toggle(index) {
+        setOpen((prev) => (prev === index ? null : index));
     }
     return (
         <section className="py-20 px-4 bg-base-200">
