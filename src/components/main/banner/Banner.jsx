@@ -17,7 +17,11 @@ const Banner = () => {
 
                     <div className="flex gap-4">
                         <Link href="/all-books">
-                            <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500">
+                            <Button className="px-6 py-2.5 rounded-xl
+  bg-slate-900 text-white
+  border border-slate-700
+  hover:bg-slate-800
+  transition-all duration-300 shadow-lg">
                                 Browse Now
                             </Button>
                         </Link>
