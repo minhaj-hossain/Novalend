@@ -1,10 +1,11 @@
 const getData = async () => {
 
-    const response = await fetch('https://novalend-nine.vercel.app/books.json');
-    const books = await response.json();
+    const response = await fetch('https://novalend-nine.vercel.app/books.json',
+        { next: { revalidate: 10 } }
+    );
 
-
-    return books;
+    if (!response.ok) throw new Error('Failed to fetch books');
+    return response.json();
 };
 
 

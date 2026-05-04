@@ -34,7 +34,7 @@ export default function SignUpPage() {
             image,
         }, {
             onSuccess: (ctx) => {
-                route.push("/")
+                route.push("/login")
                 toast.success("Registration successful! Welcome aboard!")
             },
             onError: (ctx) => {
@@ -47,6 +47,7 @@ export default function SignUpPage() {
     const handleGoogleAuth = async () => {
         const data = await authClient.signIn.social({
             provider: "google",
+            callbackURL: "/login"
         });
     }
 

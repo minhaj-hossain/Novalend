@@ -4,9 +4,9 @@ import { useState } from "react";
 
 import { Input } from "@heroui/react";
 import AllBooksCard from "@/components/allBooksPage/AllBooksCard";
-import getData from "@/lib/fetchData/getData";
 import Link from "next/link";
 import CategoryLink from "@/components/allBooksPage/CategoryLink";
+import getData from "@/lib/fetchData/getData";
 
 
 const books = await getData();
@@ -45,8 +45,8 @@ function AllBooksPage() {
                     placeholder="Search books by title..."
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
-                    classNames={
-                        "bg-white dark:bg-zinc-900 shadow-sm border border-gray-200 w-full dark:border-white/10 w-[400px]"
+                    className={
+                        "bg-white dark:bg-zinc-900 shadow-sm border border-gray-200  dark:border-white/10 w-100"
                     }
                 />
             </div>

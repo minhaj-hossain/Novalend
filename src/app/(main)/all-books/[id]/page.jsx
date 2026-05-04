@@ -21,7 +21,7 @@ const BookDetailsPage = async ({ params }) => {
                 className="border border-gray-200 dark:border-white/10 bg-white dark:bg-zinc-900 p-6 md:p-10"
             >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-                    {/* Left — Book Cover */}
+                    
                     <div className="relative w-full h-105 md:h-130 overflow-hidden rounded-2xl shadow-xl">
                         <Image
                             src={expectedBooks.image_url}
@@ -32,7 +32,7 @@ const BookDetailsPage = async ({ params }) => {
                         />
                     </div>
 
-                    {/* Right — Details */}
+                   
                     <div className="flex flex-col h-full">
                         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
                             {expectedBooks.title}
@@ -55,7 +55,7 @@ const BookDetailsPage = async ({ params }) => {
                             </p>
                         </div>
 
-                        {/* Action */}
+                       
                         <div className="mt-10">
                             <ClickableButton />
 

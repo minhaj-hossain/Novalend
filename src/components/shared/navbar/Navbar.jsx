@@ -12,7 +12,7 @@ const Navbar = async () => {
     return (
         <div className="border-b px-2 flex items-center justify-between relative">
             <nav className="flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
-                <div className="flex gap-0 items-center relative"><Link href={"/"} className="flex items-center gap-0">
+                <div className="flex gap-0 items-center relative"><Link href={"/"} className="flex items-center gap-0 animate__animated animate__fadeInLeft">
                     <Image
                         src={NovalendLogo}
                         alt="logo"
@@ -42,7 +42,7 @@ const Navbar = async () => {
 
                     </ul>
                 </div>
-                
+
                 {/* for mobile menu  */}
                 <MobileMenu />
             </nav>

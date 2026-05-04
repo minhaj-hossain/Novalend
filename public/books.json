@@ -1,110 +1,110 @@
 [
     {
         "id": 1,
-        "title": "The Silent Forest",
-        "author": "Elena Marrow",
-        "description": "A mysterious tale of a village surrounded by a forest where no sound can be heard after sunset.",
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "description": "The riveting first-person narrative of Kvothe, a legendary wizard and musician who recounts his extraordinary life from his humble beginnings to his rise as the most notorious wizard of his age.",
         "category": "Story",
-        "available_quantity": 7,
-        "image_url": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9798227859433.jpg"
+        "available_quantity": 6,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1270352123i/186074.jpg"
     },
     {
         "id": 2,
-        "title": "Mastering React Architecture",
-        "author": "Daniel Kross",
-        "description": "A practical guide to building scalable and maintainable React applications with modern architecture patterns.",
-        "category": "Tech",
-        "available_quantity": 5,
-        "image_url": "https://tse3.mm.bing.net/th/id/OIP.dH5A77ZKLvFXA8W6KcRCBwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "description": "Set in the distant future, a noble family takes control of the desert planet Arrakis, the only source of the universe's most precious resource. A sweeping tale of politics, religion, and survival.",
+        "category": "Story",
+        "available_quantity": 8,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg"
     },
     {
         "id": 3,
-        "title": "Cosmos Beyond Sight",
-        "author": "Dr. Lila Hart",
-        "description": "An exploration of galaxies, dark matter, and the unseen wonders of the universe.",
-        "category": "Science",
-        "available_quantity": 9,
-        "image_url": "https://tse1.mm.bing.net/th/id/OIP.-UR6Io_FUUjJtZlfyD-hqgHaLv?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+        "title": "1984",
+        "author": "George Orwell",
+        "description": "A chilling dystopian novel set in a totalitarian society ruled by Big Brother, where independent thinking is a crime and reality itself is manipulated by the state.",
+        "category": "Story",
+        "available_quantity": 10,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg"
     },
     {
         "id": 4,
-        "title": "Whispers of the Old Town",
-        "author": "Marcus Dune",
-        "description": "A collection of short stories revealing hidden secrets of an ancient town through generations.",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "A young Andalusian shepherd embarks on a journey to find a worldly treasure, only to discover that the real treasure lies within himself. A timeless fable about following your dreams.",
         "category": "Story",
-        "available_quantity": 4,
-        "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+        "available_quantity": 9,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg"
     },
     {
         "id": 5,
-        "title": "AI for Everyday Developers",
-        "author": "Nina Patel",
-        "description": "An approachable introduction to integrating artificial intelligence into everyday software projects.",
-        "category": "Tech",
-        "available_quantity": 6,
-        "image_url": "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
-    },
-    {
-        "id": 6,
-        "title": "The Quantum Key",
-        "author": "Oliver Grant",
-        "description": "A thrilling narrative where quantum physics meets espionage in a race against time.",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "description": "Through the eyes of young Scout Finch, this Pulitzer Prize-winning novel explores themes of racial injustice and moral growth in the American Deep South during the 1930s.",
         "category": "Story",
-        "available_quantity": 3,
-        "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+        "available_quantity": 7,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657.jpg"
     },
     {
         "id": 7,
-        "title": "Human Anatomy Simplified",
-        "author": "Dr. Rebecca Miles",
-        "description": "A clear and concise guide to understanding the human body for students and enthusiasts.",
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "description": "A groundbreaking narrative of humanity's creation and evolution, from the Stone Age to the modern era. Harari explores how biology and history have defined us and enhanced our understanding of what it means to be human.",
         "category": "Science",
-        "available_quantity": 8,
-        "image_url": "https://tse3.mm.bing.net/th/id/OIP.sXBp-77HjR1e99-RUE0yyAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+        "available_quantity": 11,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1420585954i/23692271.jpg"
     },
     {
         "id": 8,
-        "title": "Node.js in Production",
-        "author": "Kevin Zhao",
-        "description": "Best practices and real-world strategies for deploying and managing Node.js applications at scale.",
-        "category": "Tech",
-        "available_quantity": 5,
-        "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd"
+        "title": "A Brief History of Time",
+        "author": "Stephen Hawking",
+        "description": "Stephen Hawking's landmark work explains complex topics in cosmology — the Big Bang, black holes, the nature of time — in a way that is accessible to general readers.",
+        "category": "Science",
+        "available_quantity": 8,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1333578746i/3869.jpg"
     },
     {
         "id": 9,
-        "title": "Beneath the Crimson Sky",
-        "author": "Ariana Vale",
-        "description": "An emotional journey of survival and hope in a post-apocalyptic world painted red by dust storms.",
-        "category": "Story",
+        "title": "The Gene: An Intimate History",
+        "author": "Siddhartha Mukherjee",
+        "description": "An exploration of the gene from Gregor Mendel's pea plants to CRISPR, weaving together science, history, and ethics in this compelling account of one of the most powerful ideas in biology.",
+        "category": "Science",
         "available_quantity": 6,
-        "image_url": "https://images.unsplash.com/photo-1500534623283-312aade485b7"
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1452452965i/27276428.jpg"
     },
     {
         "id": 10,
-        "title": "The Brain and Beyond",
-        "author": "Dr. Samuel Ortiz",
-        "description": "Insights into neuroscience, cognition, and the mysteries of human thought processes.",
+        "title": "The Selfish Gene",
+        "author": "Richard Dawkins",
+        "description": "Richard Dawkins' classic work introduces the gene-centered view of evolution, coining the concept of the meme and transforming how we think about natural selection and human behavior.",
         "category": "Science",
         "available_quantity": 7,
-        "image_url": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e"
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366758096i/61535.jpg"
     },
     {
         "id": 11,
-        "title": "CSS Secrets Unveiled",
-        "author": "Laura Chen",
-        "description": "Advanced CSS techniques to create stunning and responsive user interfaces.",
-        "category": "Tech",
-        "available_quantity": 4,
-        "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+        "title": "Cosmos",
+        "author": "Carl Sagan",
+        "description": "Carl Sagan's iconic exploration of the universe covers the origin of life, the nature of consciousness, and humanity's place in the vast cosmic arena, written with breathtaking elegance.",
+        "category": "Science",
+        "available_quantity": 9,
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/9/91/Cosmos_book.gif"
     },
     {
         "id": 12,
-        "title": "Echoes from the Deep Sea",
-        "author": "Jonah Pierce",
-        "description": "Discover the hidden life forms and mysteries lurking in the deepest parts of the ocean.",
+        "title": "The Immortal Life of Henrietta Lacks",
+        "author": "Rebecca Skloot",
+        "description": "The story of Henrietta Lacks, whose cancer cells were taken without her knowledge in 1951 and became one of the most important tools in medicine, raising profound questions about race, ethics, and science.",
         "category": "Science",
         "available_quantity": 5,
-        "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327878144i/6493208.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "description": "A handbook of agile software craftsmanship that teaches developers how to write readable, maintainable, and efficient code. Essential reading for every serious programmer.",
+        "category": "Tech",
+        "available_quantity": 8,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg"
     }
 ]
