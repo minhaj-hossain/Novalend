@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Novalend — Online Book Borrowing Platform
+ 
+A seamless and modern web application that digitizes the traditional library experience. Users can explore a vast collection of books, filter by categories, and borrow titles digitally.
+ 
+**Live Site:** [Novalend](https://novalend-nine.vercel.app)
+**GitHub Repo:** [Novalend-Repo](https://github.com/minhaj-hossain/Novalend)
+ 
+---
+ 
+## Key Features
+ 
+- Secure authentication with **BetterAuth** (Email/Password + Google OAuth)
+-  Browse and search books by title
+-  Filter books by category (Story, Tech, Science)
+-  View detailed book info on a private route
+-  Borrow books with a single click
+-  Personal profile page with update functionality
+-  Fully responsive — mobile, tablet, and desktop
+-  Smooth animations using **Animate.css**
+---
+ 
+## Tech Stack
+ 
+| Technology | Purpose |
+|---|---|
+| Next.js | Full-stack React framework |
+| Tailwind CSS | Utility-first styling |
+| HeroUI | UI component library |
+| BetterAuth | Authentication |
+| MongoDB | Database |
+| Animate.css | Animations |
+ 
+---
+ 
+## NPM Packages Used
+ 
+- `next` — App framework
+- `tailwindcss` — Styling
+- `HeroUI` - Component library
+- `better-auth` — Authentication
+- `mongodb` — Database driver
+- `animate.css` — UI animations
+---
+ 
